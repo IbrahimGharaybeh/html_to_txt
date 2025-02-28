@@ -2,7 +2,7 @@
 
 ## Overview
 
-This script allows you to transform HTML files that contain chat messages into a text file formatted like a WhatsApp chat.
+This script allows you to transform HTML files that contain chat messages into a text file formatted like a WhatsApp chat. Forked to allow changes to multiple html files telegram likes to create.
 
 ## Prerequisites
 
