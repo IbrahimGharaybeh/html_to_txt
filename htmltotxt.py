@@ -53,11 +53,21 @@ def transform_html_to_whatsapp(html_file):
             whatsapp_chat += whatsapp_message
 
     # Save the transformed chat to a file
-    with open('_chat.txt', 'w', encoding='utf-8') as file:
+    with open('_chat.txt', 'a', encoding='utf-8') as file:
         file.write(whatsapp_chat)
 
     print('Transformation complete. The WhatsApp chat export is saved as _chat.txt')
 
 # Usage example
-transform_html_to_whatsapp('messages.html')
+maximum = input("how many html files are there in your folder?")
+i = 1
+while True:
+    if i == 1:
+        transform_html_to_whatsapp('messages.html')
+        i += 1
+        break
+    else:
+        for i in range(2, maximum):
+            transform_html_to_whatsapp(f'messages{i}.html')
+        break
 input('press enter to exit')
