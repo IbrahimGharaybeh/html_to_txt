@@ -1,10 +1,8 @@
 # Transform HTML to WhatsApp Chat Format
-
+I haven't tested it so tell me if there are any bugs.
 ## Overview
 
-This script allows you to transform HTML files that contain chat messages into a text file formatted like a WhatsApp chat. Forked to allow changes to multiple html files telegram likes to create.
-
-## Prerequisites
+This script allows you to transform HTML files that contain chat messages into a text file formatted like a WhatsApp chat.
 
 1. **Python Installed**: Ensure you have Python 3.x installed on your computer. You can download it from [python.org](https://www.python.org/downloads/).
 2. **BeautifulSoup Library**: This script uses the BeautifulSoup library to parse HTML. You will need to install it if it's not already installed.
